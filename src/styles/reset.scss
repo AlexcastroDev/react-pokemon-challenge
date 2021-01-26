@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+}
+
+textarea:focus,
+input:focus,
+input:active {
+    border: none;
+    outline: none;
+}
+
+button:active,
+button:hover,
+button:focus {
+    outline: none;
+}

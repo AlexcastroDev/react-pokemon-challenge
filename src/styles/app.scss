@@ -1,0 +1,161 @@
+html,
+body {
+    overflow: auto !important;
+}
+
+*::-webkit-scrollbar {
+    width: 4px;
+}
+*::-webkit-scrollbar-track {
+    background: rgba(213, 213, 213, 0.5);
+    border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: rgba(150, 146, 146, 0.5);
+    border-radius: 4px;
+}
+*::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(150, 146, 146, 0.5);
+    border-radius: 4px;
+}
+
+span,
+li,
+input,
+h1, h2, h3, h4, h5 {
+    font-family: $font-primary;
+}
+ 
+h1 {
+    font-size: $font-h1-size;
+    font-weight: $font-h1-weight;
+    line-height: $font-h1-line-height;
+}
+
+h2 {
+    font-size: $font-h2-size;
+    font-weight: $font-h2-weight;
+    line-height: $font-h2-line-height;
+}
+
+h3 {
+    font-size: $font-h3-size;
+    font-weight: $font-h3-weight;
+    line-height: $font-h3-line-height;
+}
+h4 {
+    font-size: $font-h4-size;
+    font-weight: $font-h4-weight;
+    line-height: $font-h4-line-height;
+}
+
+h5 {
+    font-size: $xar-h5-size;
+    font-weight: $xar-h5-weight;
+    line-height: $xar-h5-line-height;
+}
+
+h5.bold {
+    font-weight: $xar-h5-bold-weight;
+}
+
+h6 {
+    font-size: $font-h6-size;
+    font-weight: $font-h6-weight;
+    line-height: $font-h6-line-height;
+}
+
+.button-font-1 {
+    font-size: $font-button-1-size;
+    font-weight: $font-button-1-weight;
+    line-height: $font-button-1-line-height;
+    letter-spacing: $font-button-1-letter-spacing;
+}
+
+.button-font-2 {
+    font-size: $font-button-2-size;
+    font-weight: $font-button-2-weight;
+    line-height: $font-button-2-line-height;
+    letter-spacing: $font-button-2-letter-spacing;
+}
+
+.button-font-3 {
+    font-size: $font-button-3-size;
+    font-weight: $font-button-3-weight;
+    line-height: $font-button-3-line-height;
+    letter-spacing: $font-button-3-letter-spacing;
+}
+
+.button-action {
+    background-color: $xgb-primary;
+    color: white;
+    border-radius: $border-radius-circular;
+    padding: 6px 24px;
+}
+
+
+.text-font-1 {
+    font-size: $font-text-1-size;
+    font-weight: $font-text-1-weight;
+    line-height: $font-text-1-line-height;
+}
+
+.text-label-1 {
+    font-size:$font-label-size;
+    font-weight: $font-label-weight;
+    line-height: $font-label-line-height;
+}
+
+.text-font-2 {
+    font-size: $font-text-2-size;
+    font-weight: $font-text-2-weight;
+    line-height: $font-text-2-line-height;
+}
+
+.text-white {
+    color: white;
+}
+
+.full-size {
+    height: 100%;
+    width: 100%;
+}
+
+input::placeholder {
+    color: $xgb-font-placeholder;
+    font-size: $font-text-1-size;
+    font-weight: $font-text-1-weight;
+    line-height: $font-text-1-line-height;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/**
+* Fonts
+*/
+
+
+.regular-small-desktop {
+    font-size: $regular-small-desktop-size;
+    font-weight: $regular-small-desktop-weight;
+    line-height: $regular-small-desktop-height;
+}
+
+.regular-paragraph-desktop {
+    font-size: $regular-paragraph-desktop-size;
+    font-weight: $regular-paragraph-desktop-weight;
+    line-height: $regular-paragraph-desktop-height;
+}
+
+.semibold-paragraph-desktop {
+    font-size: $semibold-paragraph-desktop-size;
+    font-weight: $semibold-paragraph-desktop-weight;
+    line-height: $semibold-paragraph-desktop-height;
+}
+
+h5.bold {
+    font-weight: 700;
+}

@@ -1,0 +1,9 @@
+// Shadow
+$elevate-1: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.5)); // usar como borda
+$elevate-2: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.1)); // leve destaque
+$elevate-3: drop-shadow(6px 6px 12px rgba(0, 0, 0, 0.08)); // hover
+$elevate-4: drop-shadow(0px 12px 18px rgba(0, 0, 0, 0.1)); // dropdown
+$elevate-5: drop-shadow(0px 10px 24px rgba(0, 0, 0, 0.1)); //modal
+
+$elevate-xgb-1: drop-shadow(20px 20px 12px rgba(0, 0, 0, 0.08)); // hover
+$elevate-xgb-2: drop-shadow(0px 2px 4px rgba(213, 213, 213, 0.502)); //card
